@@ -123,6 +123,7 @@ ConectarUser ca = new ConectarUser();
                 
             } else if (validacion!=true){
                 JOptionPane.showMessageDialog(rootPane, "Rut Invalido");
+                 JOptionPane.showMessageDialog(rootPane, "Rut modificado desde github");
             btnpass.setText("");
             btntxt.setText(ca.respuestapass);
                continval=continval+1;
